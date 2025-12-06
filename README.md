@@ -17,6 +17,10 @@ Este proyecto me sirve para actualizar mis conocimientos en Angular y aplicar lo
 > [!TIP]
 > https://angular.dev
 
+!! esta ya no mas!!
+> [!WARNING]
+> https://v17.angular.io/start
+
 ## Configuración Inicial
 
 ### Instalación de Angular CLI
@@ -38,6 +42,36 @@ ng config -g cli.packageManager bun
 ```
 
 Este comando configura globalmente Bun como el gestor de paquetes por defecto para los proyectos de Angular.
+
+### Crear nuevo proyecto Angular
+
+Para crear un nuevo proyecto Angular, ejecutar:
+
+```bash
+ng new CursoAngular
+```
+
+Al ejecutar este comando, se te preguntará qué sistema de hojas de estilo deseas usar. Seleccionar:
+
+```
+? Which stylesheet system would you like to use?
+  CSS             [ https://developer.mozilla.org/docs/Web/CSS                     ]
+  Tailwind CSS    [ https://tailwindcss.com                                        ]
+❯ Sass (SCSS)     [ https://sass-lang.com/documentation/syntax#scss                ]
+  Sass (Indented) [ https://sass-lang.com/documentation/syntax#the-indented-syntax ]
+  Less            [ http://lesscss.org                                             ]
+```
+
+Elegir **Sass (SCSS)**.
+
+Luego, se preguntará si deseas habilitar SSR (Server-Side Rendering) y SSG (Static Site Generation):
+
+```
+Do you want to enable Server-Side Rendering (SSR) and Static Site Generation (SSG/Prerendering)?
+(y/N)
+```
+
+Responder **Y** (Yes).
 
 cuya documentacion
 
