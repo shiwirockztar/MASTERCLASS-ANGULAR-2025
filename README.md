@@ -21,7 +21,9 @@ GitHub Markdown
 callouts
 [!NOTE]
 
-[!TIP] https://www.youtube.com/watch?v=R1QePsia5xk
+> [!TIP]
+> [Este es un consejo.](https://www.youtube.com/watch?v=R1QePsia5xk)
+
 
 [!IMPORTANT]
 
