@@ -3,7 +3,8 @@ set -euo pipefail
 
 # Install editor tooling
 sudo apt-get update
-sudo apt-get install -y vim
+sudo apt install -y neovim
+
 
 # Angular CLI global install
 npm install -g @angular/cli
@@ -11,6 +12,7 @@ npm install -g @angular/cli
 # Install Bun if missing
 if ! command -v bun >/dev/null 2>&1; then
   curl -fsSL https://bun.sh/install | bash
+  source ~/.bashrc
 fi
 
 # Ensure Bun is on PATH for this run
