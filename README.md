@@ -40,6 +40,12 @@ A partir del minuto 58:26 del curso, se comienza instalando **Bun**, un gestor d
 
 Instalar Bun:
 
+cuya documentacion
+
+> [!IMPORTANT]
+> https://bun.com
+
+
 ```bash
 curl -fsSL https://bun.sh/install | bash
 ```
@@ -103,10 +109,6 @@ Do you want to enable Server-Side Rendering (SSR) and Static Site Generation (SS
 
 Responder **Y** (Yes).
 
-cuya documentacion
-
-> [!IMPORTANT]
-> https://bun.com
 
 
 <!-- 
