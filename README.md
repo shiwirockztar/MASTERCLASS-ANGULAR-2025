@@ -29,19 +29,49 @@ Primero, instalar Angular CLI globalmente:
 
 ```bash
 npm install -g @angular/cli
+
+# Verificar que Angular CLI se instaló correctamente
+ng version
 ```
 
 ### Instalación de Bun (min 58:26)
 
 A partir del minuto 58:26 del curso, se comienza instalando **Bun**, un gestor de paquetes y bundler que está reemplazando a Node.
 
-Para configurar Bun como gestor de paquetes en Angular CLI, ejecutar:
+Instalar Bun:
+
+```bash
+curl -fsSL https://bun.sh/install | bash
+```
+
+Recargar la terminal para que Bun quede disponible en la sesión actual:
+
+```bash
+source ~/.bashrc
+```
+
+Verificar la instalación de Bun:
+
+```bash
+bun --version
+```
+
+Configurar Bun como gestor de paquetes por defecto en Angular CLI:
 
 ```bash
 ng config -g cli.packageManager bun
 ```
 
-Este comando configura globalmente Bun como el gestor de paquetes por defecto para los proyectos de Angular.
+Este comando deja Bun como gestor de paquetes predeterminado para los proyectos de Angular.
+
+Dentro del proyecto, instalar dependencias con Bun:
+
+```bash
+bun install
+```
+
+> [!NOTE]
+> Si quieres dejar de usar Bun en el proyecto, elimina `bun.lock` y vuelve a instalar dependencias con tu gestor preferido.
 
 ### Crear nuevo proyecto Angular
 

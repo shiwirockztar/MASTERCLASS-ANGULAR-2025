@@ -1,0 +1,13 @@
+{
+  "name": "MASTERCLASS-ANGULAR-2025",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:1-20-bullseye",
+  "postCreateCommand": "bash .devcontainer/post-create.sh",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash"
+      },
+      "extensions": []
+    }
+  }
+}
