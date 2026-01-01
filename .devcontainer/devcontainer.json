@@ -7,7 +7,20 @@
       "settings": {
         "terminal.integrated.defaultProfile.linux": "bash"
       },
-      "extensions": []
+      "extensions": ["ms-python.python",
+        "github.copilot",
+        "github.copilot-chat",
+        "github.copilot-labs",
+        "github.remotehub",
+        "pkief.material-icon-theme",
+        "ms-vscode.remote-repositories",
+        "mechatroner.rainbow-csv",
+        "mhutchie.git-graph",
+        "esbenp.prettier-vscode",
+        "rapidapi.vscode-rapidapi-client",
+        "rapidapi.vscode-services",
+        //"tabnine.tabnine-vscode",
+        "usernamehw.errorlens"]
     }
   }
 }
